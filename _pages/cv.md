@@ -2,9 +2,9 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+paperurl: 'http://zhangc-econ.github.io/files/zc_cv.pdf'
+
+
 ---
 
 {% include base_path %}
