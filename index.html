@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zhang Chen</title>
+  <meta name="description" content="Zhang Chen, Assistant Professor of Economics at the Hong Kong University of Science and Technology (HKUST). Macroeconomics, international trade, and firm dynamics.">
+  <link rel="icon" type="image/png" href="images/hkust-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@400&display=swap" rel="stylesheet">
+  <style>
+    /* ---- Colors and fonts copied from the old Google Site ---- */
+    :root {
+      --bar: #003366;        /* top bar */
+      --heading: #1155cc;    /* section headings */
+      --text: #212121;
+      --grey: #f2f2f2;       /* lower section background */
+      --rule: rgba(0, 0, 0, 0.15);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-padding-top: 72px; }
+    body {
+      margin: 0;
+      background: #fff;
+      color: var(--text);
+      font-family: "Lato", Arial, sans-serif;
+      -webkit-text-size-adjust: 100%;
+    }
+    a { color: inherit; }
+
+    /* Top bar */
+    .topbar {
+      position: sticky; top: 0; z-index: 10;
+      height: 56px;
+      background: var(--bar);
+      display: flex; align-items: center; gap: 14px;
+      padding: 0 20px;
+    }
+    .topbar img { height: 44px; width: auto; display: block; }
+    .topbar a {
+      color: #fff; text-decoration: none;
+      font-family: "Montserrat", Arial, sans-serif; font-size: 20px;
+    }
+
+    .wrap { max-width: 960px; margin: 0 auto; padding: 0 32px; }
+    .row { display: grid; grid-template-columns: 5fr 7fr; gap: 24px; }
+
+    /* Name + intro */
+    .name { padding: 104px 0 96px; }
+    .name h1 {
+      grid-column: 2; margin: 0; text-align: center;
+      font-family: "Bitter", Georgia, serif; font-size: 48px; font-weight: 700; color: #0f0f0f;
+    }
+    hr { border: 0; border-top: 2px solid var(--rule); margin: 0; }
+    .intro { padding: 26px 0 26px; align-items: start; }
+    .intro img { display: block; margin: 0 auto; width: 57%; height: auto; }
+    .intro .text { font-family: "Bitter", Georgia, serif; font-size: 16px; line-height: 1.6; }
+    .intro .text p { margin: 0 0 16px; }
+
+    /* Research section */
+    .research { background: var(--grey); padding: 24px 0 64px; margin-top: 4px; }
+    .research h2 {
+      color: var(--heading); font-size: 24px; font-weight: 700; line-height: 1.25;
+      margin: 40px 0 12px;
+    }
+    .research h2:first-child { margin-top: 16px; }
+    .research ul { list-style: square; margin: 0; padding-left: 16px; font-size: 16px; line-height: 1.6; max-width: 830px; }
+    .research li { margin: 0 0 8px; padding-left: 0; }
+    .research li ul { font-size: 14.67px; margin-top: 4px; }
+    .research a { font-weight: 700; }
+
+    /* Phones: stack the photo above the text */
+    @media (max-width: 700px) {
+      .wrap { padding: 0 16px; }
+      .row { grid-template-columns: 1fr; }
+      .name { padding: 36px 0 28px; }
+      .name h1 { grid-column: 1; font-size: 40px; }
+      .intro img { width: 180px; margin-bottom: 8px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="topbar">
+    <img src="images/hkust-logo.png" alt="HKUST">
+    <a href="./">Zhang Chen</a>
+  </header>
+
+  <main>
+    <section class="wrap">
+      <div class="row name"><h1>Zhang Chen</h1></div>
+      <hr>
+      <div class="row intro">
+        <div><img src="images/photo.jpg" alt="Photo of Zhang Chen"></div>
+        <div class="text">
+          <p>Welcome!</p>
+          <p>I am an assistant professor at the Economics Department of Hong Kong University of Science and Technology (HKUST). I work on macroeconomics and international trade. I am particularly interested in studying firm dynamics in the growth and global settings.</p>
+          <p>You can find my CV <a href="files/CV_ZC_latest.pdf" target="_blank" rel="noopener">here</a>.</p>
+          <p>Email: <a href="mailto:zhangchen.econ@gmail.com">zhangchen.econ@gmail.com</a></p>
+        </div>
+      </div>
+      <hr>
+    </section>
+
+    <section class="research">
+      <div class="wrap">
+
+        <h2 id="working-papers">Working Papers</h2>
+        <ul>
+          <li><b>Firm Entry and Market Interdependence</b> with Cheng Chen and Chang Sun. <b>[<a href="files/draft0_latest.pdf" target="_blank" rel="noopener">Paper</a>]</b>
+            <ul><li>Unilateral tariffs on the home country can also depress its exports to third countries through firms' joint entry decisions.</li></ul>
+          </li>
+          <li><b>Export by Cohort</b> with Qing Huang. <b>[<a href="files/ExportCohort_v1.2.pdf" target="_blank" rel="noopener">Paper</a>]</b>
+            <ul><li>Later cohorts of exporters perform better in sales since they start with a larger customer base building upon predecessors' reputation.</li></ul>
+          </li>
+        </ul>
+
+        <h2 id="work-in-progress">Work in Progress</h2>
+        <ul>
+          <li><b>The Lifecycle of the Labor Share</b> with Joao Monteiro and Liangjie Wu.</li>
+        </ul>
+
+        <h2 id="publications">Publications</h2>
+        <ul>
+          <li><b>Discussion of “Human Capital as a Driver of Automation: Theory and Evidence from China’s College Expansion”</b>, <i>International Economic Review</i>, forthcoming. <b>[<a href="files/IER_comments_2026.pdf" target="_blank" rel="noopener">Final WP</a>][<a href="https://onlinelibrary.wiley.com/doi/10.1111/iere.70115" target="_blank" rel="noopener">Journal</a>]</b></li>
+          <li><b>Economic Growth and the Rise of Large Firms</b>, <i>Econometrica</i>, July 2026. <b>[<a href="files/Tail_Growth_Chen_v2-2.pdf" target="_blank" rel="noopener">2023 WP</a>] [<a href="files/main_v4_2.pdf" target="_blank" rel="noopener">Final WP</a>] [<a href="https://onlinelibrary.wiley.com/doi/full/10.3982/ECTA22110" target="_blank" rel="noopener">Journal</a>]</b></li>
+        </ul>
+
+        <h2 id="policy-publications">Policy Publications</h2>
+        <ul>
+          <li><b>Trade and FDI Policies in an Interdependent World: Lessons From East Asia</b>, with Cheng Chen and Chang Sun, <i>Asian Economic Policy Review</i>, July 2026. <b>[<a href="https://onlinelibrary.wiley.com/doi/10.1111/aepr.70024" target="_blank" rel="noopener">Journal</a>]</b></li>
+        </ul>
+
+        <h2 id="dormant-papers">Dormant Papers</h2>
+        <ul>
+          <li><b>Knowledge Diffusion Through Networks</b> with Treb Allen, Kamran Bilir and Christopher Tonetti. <b>[<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3509835" target="_blank" rel="noopener">SSRN</a>]</b></li>
+        </ul>
+
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
